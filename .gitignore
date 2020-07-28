@@ -1,0 +1,9 @@
+/.settings/
+/bin/
+/system/
+/logs/
+myServerKey.pem
+/.idea/
+html/credentials.php
+html/GoogleCredentials.js
+html/RetrieversCredentials.js

@@ -1,0 +1,207 @@
+body
+{
+    width: 80%;
+    margin: 10px auto 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header
+{
+    width: 400px;
+    margin: 0 auto 40px;
+}
+
+img
+{
+    width: 100%;
+}
+
+h1
+{
+    text-align:center;
+    font-size:36pt;
+    margin-bottom: -20px;
+    padding-bottom: 0;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.contents
+{
+    margin-top: 15px;
+    border-top: 5px solid  #00925b;
+    background-color:#F4F5F7;
+    padding: 20px;
+}
+
+input
+{
+    width:30%;
+
+    margin-bottom: 15px;
+}
+
+label
+{
+    display:inline-block;
+    width: 75px;
+}
+
+select
+{
+
+    width:30%;
+    margin-bottom: 20px;
+}
+
+
+.navBar
+{
+    margin-top: 15px;
+    border-top: 5px solid  #00925b;
+    background-color:#F4F5F7;
+    text-align: center;
+
+}
+
+.options
+{
+    margin-top: 15px;
+    border-top: 5px solid  #00925b;
+    background-color:#F4F5F7;
+    text-align: center;
+
+}
+
+.options li
+{
+    height:350px;
+    width: 350px;
+    vertical-align: top;
+    display:inline-block;
+    background-color:lightgrey;
+    margin:20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+.options li a
+{
+    display: block;
+    color: black;
+    font-style: normal;
+
+    /*text padding inside button */
+    padding:5px 0 5px 0; 
+
+} 
+
+.chooseButton
+{
+    display: block;
+
+    /*controls width of each button */
+    width:140px; 
+    color: black;
+    margin: auto;
+    font-style: normal;
+
+    /*text padding inside button */
+    padding:5px 0 5px 0; 
+    border: 2px solid black;
+}
+
+ul 
+{
+    
+    /*removes small gap at left of navbar */
+    padding: 10px;
+}
+
+.navBar li
+{
+    background-color:  black;
+
+    /* removes bullet points*/
+    display:inline-block; 
+
+    /*gap between buttons */
+    margin:5px;
+}
+
+.navBar li a 
+{
+
+    /*controls width of each button */
+    display: block;
+    width:140px; 
+    color: #a1a3a7;
+    font-style: normal;
+    text-align: center; 
+
+    /*text padding inside button */
+    padding:10px 0 10px 0; 
+    border: 5px solid #056d46;
+}
+
+.navBar li a:hover 
+{
+    background-color:  #a1a3a7;
+    color: black;
+    font-weight:bold;
+}
+
+td
+{
+    
+    /* prevents text wrapping to a second row */
+   white-space: nowrap; 
+   padding: 3px;
+}
+
+tr.first > td
+{
+   background-color: #66b8ff;
+}
+
+a
+{
+
+    /*removes hyperlink colouration */
+    text-decoration: none; 
+    color: blue;
+    font-style: italic;  
+}
+
+tr 
+{
+
+   background-color: #cce7ff;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #e6f3ff;
+}
+
+table 
+{
+    background-color: #8c8c8c;
+}
+
+footer
+{
+    margin-top: 15px;
+    border-top: 5px solid  #00925b;
+    padding: 2px 20px;
+    background-color: #F4F5F7;
+
+}
+
+.footerLine
+{      
+    text-align:right;
+    float:right;
+}
